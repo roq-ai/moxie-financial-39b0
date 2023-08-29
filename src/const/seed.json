@@ -1,0 +1,2090 @@
+[
+  {
+    "stock": [
+      {
+        "id": "ef265b10-49de-4a62-b94e-873ef022a2cc",
+        "name": "Apple Inc.",
+        "current_price": 61793,
+        "historical_data": "2021-01-01",
+        "relevant_news": "Tech giant announces new product",
+        "created_at": "2023-08-29T05:05:13.432Z",
+        "updated_at": "2023-08-28T17:12:14.724Z"
+      },
+      {
+        "id": "9e6791ad-5e19-4a64-9d38-705490cd329f",
+        "name": "Microsoft Corporation",
+        "current_price": 80040,
+        "historical_data": "2021-01-02",
+        "relevant_news": "Company reports record-breaking profits",
+        "created_at": "2023-08-28T15:54:24.130Z",
+        "updated_at": "2023-08-29T06:20:21.243Z"
+      },
+      {
+        "id": "e71bfaeb-1db2-45ae-83f3-575884eb0615",
+        "name": "Amazon.com Inc.",
+        "current_price": 50036,
+        "historical_data": "2021-01-03",
+        "relevant_news": "Stock price reaches all-time high",
+        "created_at": "2023-08-28T10:30:42.648Z",
+        "updated_at": "2023-08-29T05:26:51.872Z"
+      },
+      {
+        "id": "fb8aadc5-366f-4ab0-9ae7-9f043180a08f",
+        "name": "Tesla Inc.",
+        "current_price": 67258,
+        "historical_data": "2021-01-04",
+        "relevant_news": "CEO resigns amid controversy",
+        "created_at": "2023-08-28T11:51:53.122Z",
+        "updated_at": "2023-08-28T17:39:52.266Z"
+      },
+      {
+        "id": "88047a47-f4cd-472e-a957-e694d0cb13c7",
+        "name": "Google LLC",
+        "current_price": 96063,
+        "historical_data": "2021-01-05",
+        "relevant_news": "New partnership with major retailer",
+        "created_at": "2023-08-28T10:38:28.791Z",
+        "updated_at": "2023-08-28T13:28:51.257Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "0c784f46-4210-49c2-8ee2-993ed30e6fc1",
+        "buy_sell_indicator": "Buy",
+        "quantity": 44519,
+        "transaction_date": "2023-08-28T17:38:47.445Z",
+        "created_at": "2023-08-28T22:08:46.069Z",
+        "updated_at": "2023-08-29T05:41:14.258Z",
+        "stock_id": "ef265b10-49de-4a62-b94e-873ef022a2cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8da9e22b-b201-41a2-9cbe-8a7138e055dc",
+        "buy_sell_indicator": "Sell",
+        "quantity": 18503,
+        "transaction_date": "2023-08-28T17:19:59.356Z",
+        "created_at": "2023-08-28T23:51:04.599Z",
+        "updated_at": "2023-08-28T17:11:54.890Z",
+        "stock_id": "e71bfaeb-1db2-45ae-83f3-575884eb0615",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e386ceb8-9e63-4cb8-be02-101a38575a2f",
+        "buy_sell_indicator": "Buy",
+        "quantity": 64845,
+        "transaction_date": "2023-08-28T13:01:23.288Z",
+        "created_at": "2023-08-28T23:28:42.824Z",
+        "updated_at": "2023-08-28T21:34:34.526Z",
+        "stock_id": "9e6791ad-5e19-4a64-9d38-705490cd329f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60102d1d-07e9-4a48-9e57-94559d510277",
+        "buy_sell_indicator": "Buy",
+        "quantity": 57920,
+        "transaction_date": "2023-08-28T19:20:09.958Z",
+        "created_at": "2023-08-28T18:28:59.793Z",
+        "updated_at": "2023-08-28T09:56:26.257Z",
+        "stock_id": "ef265b10-49de-4a62-b94e-873ef022a2cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f91a519b-08d8-4cc9-a976-f11ae9a379b1",
+        "buy_sell_indicator": "Sell",
+        "quantity": 3980,
+        "transaction_date": "2023-08-29T08:15:52.301Z",
+        "created_at": "2023-08-28T19:18:40.422Z",
+        "updated_at": "2023-08-29T07:19:18.858Z",
+        "stock_id": "9e6791ad-5e19-4a64-9d38-705490cd329f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "41cef793-521b-4bef-b31f-0437259ddaab",
+        "advice": "Hold",
+        "created_at": "2023-08-28T13:56:13.499Z",
+        "updated_at": "2023-08-29T07:20:26.789Z",
+        "stock_id": "ef265b10-49de-4a62-b94e-873ef022a2cc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51c4e949-1004-4512-8ac1-3dbe01370fd3",
+        "advice": "Buy",
+        "created_at": "2023-08-28T21:31:00.727Z",
+        "updated_at": "2023-08-29T03:45:31.170Z",
+        "stock_id": "fb8aadc5-366f-4ab0-9ae7-9f043180a08f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6cb403a-229c-4f1a-acf8-992e17195210",
+        "advice": "Sell",
+        "created_at": "2023-08-28T15:12:13.369Z",
+        "updated_at": "2023-08-28T11:20:53.228Z",
+        "stock_id": "e71bfaeb-1db2-45ae-83f3-575884eb0615",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0855ddd8-6bc2-4af6-bad7-d381133374d7",
+        "advice": "Hold",
+        "created_at": "2023-08-28T19:08:41.981Z",
+        "updated_at": "2023-08-28T14:42:35.063Z",
+        "stock_id": "fb8aadc5-366f-4ab0-9ae7-9f043180a08f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00c52e5c-6387-4df0-9bc1-c668254a7619",
+        "advice": "Buy",
+        "created_at": "2023-08-28T19:31:50.016Z",
+        "updated_at": "2023-08-28T08:51:59.302Z",
+        "stock_id": "fb8aadc5-366f-4ab0-9ae7-9f043180a08f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "4194fdfa-671e-4ca7-9548-520f6418755d",
+        "virtual_investment": 60704,
+        "gains_losses": 17567,
+        "created_at": "2023-08-28T21:18:55.608Z",
+        "updated_at": "2023-08-28T12:08:30.687Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8fce28d-3744-4190-a2fa-b1f441501d3f",
+        "virtual_investment": 18584,
+        "gains_losses": 81787,
+        "created_at": "2023-08-28T10:08:09.583Z",
+        "updated_at": "2023-08-28T15:22:24.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf795c24-b32d-47b2-bfe5-6001cffbb850",
+        "virtual_investment": 54959,
+        "gains_losses": 87034,
+        "created_at": "2023-08-28T18:30:53.849Z",
+        "updated_at": "2023-08-28T18:01:59.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0c8a9e8-2c35-465f-9395-2fdfef4cc383",
+        "virtual_investment": 11706,
+        "gains_losses": 544,
+        "created_at": "2023-08-28T20:30:58.796Z",
+        "updated_at": "2023-08-28T10:58:28.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53a13772-5d7d-4ae4-b09b-09b3026f1d55",
+        "virtual_investment": 19234,
+        "gains_losses": 12928,
+        "created_at": "2023-08-28T14:47:15.215Z",
+        "updated_at": "2023-08-28T13:18:02.711Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c5c807da-5d10-4d56-a978-6cbc138df098",
+        "email": "Oma_Casper-Paucek78@hotmail.com",
+        "firstName": "Jarret",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21176498",
+        "tenantId": null
+      },
+      {
+        "reference": "1378d04e-dc72-4ccd-b37e-b23d7e18100e",
+        "email": "Audreanne.Emard-Conn21@gmail.com",
+        "firstName": "Elsie",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b23be30-5538-4b88-9280-8d2536cd5edb",
+        "email": "Eduardo_Heaney@yahoo.com",
+        "firstName": "Haylie",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84568892",
+        "tenantId": null
+      },
+      {
+        "reference": "624aadbe-1ece-42b0-b628-80b8c397e189",
+        "email": "Hobart_Kirlin48@gmail.com",
+        "firstName": "Oswaldo",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40444577",
+        "tenantId": null
+      },
+      {
+        "reference": "4d7cc125-8012-421f-b481-1981d3694e22",
+        "email": "Jordon41@gmail.com",
+        "firstName": "America",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/983.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "71d576de-b1b3-423d-b4f6-97033aba02d5",
+        "name": "Apple Inc.",
+        "current_price": 4862,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Apple announces new iPhone",
+        "created_at": "2023-08-28T17:31:50.635Z",
+        "updated_at": "2023-08-28T23:15:43.327Z"
+      },
+      {
+        "id": "2df9a123-8604-480e-807e-aefb7c7647ad",
+        "name": "Microsoft Corporation",
+        "current_price": 75434,
+        "historical_data": "2019-12-31",
+        "relevant_news": "Microsoft releases Windows 10 update",
+        "created_at": "2023-08-28T10:06:27.271Z",
+        "updated_at": "2023-08-28T19:57:30.542Z"
+      },
+      {
+        "id": "18367278-2de2-4eb4-9b99-9793050f7ba1",
+        "name": "Amazon.com Inc.",
+        "current_price": 32135,
+        "historical_data": "2019-12-30",
+        "relevant_news": "Amazon reports record-breaking holiday sales",
+        "created_at": "2023-08-28T21:36:21.636Z",
+        "updated_at": "2023-08-28T08:53:52.019Z"
+      },
+      {
+        "id": "b2da7d17-b2a1-4818-a89f-11bd5d5af49a",
+        "name": "Google LLC",
+        "current_price": 52546,
+        "historical_data": "2019-12-27",
+        "relevant_news": "Google launches new AI-powered assistant",
+        "created_at": "2023-08-29T02:33:40.802Z",
+        "updated_at": "2023-08-28T09:23:49.241Z"
+      },
+      {
+        "id": "fa145b68-40ba-4aa2-ad89-fc3acfba465f",
+        "name": "Facebook Inc.",
+        "current_price": 17182,
+        "historical_data": "2019-12-26",
+        "relevant_news": "Facebook introduces new privacy features",
+        "created_at": "2023-08-28T11:33:47.300Z",
+        "updated_at": "2023-08-28T21:12:53.148Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d2fad0ea-6c58-499e-be0a-c0e32635c687",
+        "buy_sell_indicator": "BUY",
+        "quantity": 87035,
+        "transaction_date": "2023-08-28T15:37:58.153Z",
+        "created_at": "2023-08-28T13:40:35.201Z",
+        "updated_at": "2023-08-29T01:38:39.292Z",
+        "stock_id": "fa145b68-40ba-4aa2-ad89-fc3acfba465f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72c76ab7-4424-4e13-82c4-25c2b9560a01",
+        "buy_sell_indicator": "SELL",
+        "quantity": 86300,
+        "transaction_date": "2023-08-29T06:20:13.675Z",
+        "created_at": "2023-08-28T19:34:36.087Z",
+        "updated_at": "2023-08-28T14:44:09.748Z",
+        "stock_id": "18367278-2de2-4eb4-9b99-9793050f7ba1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d76a332-6bde-478f-806b-7e1a544ff318",
+        "buy_sell_indicator": "BUY",
+        "quantity": 97977,
+        "transaction_date": "2023-08-28T09:36:14.070Z",
+        "created_at": "2023-08-29T07:46:30.856Z",
+        "updated_at": "2023-08-29T00:18:44.577Z",
+        "stock_id": "71d576de-b1b3-423d-b4f6-97033aba02d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c285254e-cc4b-43c4-8f50-ee2148f23c20",
+        "buy_sell_indicator": "SELL",
+        "quantity": 20649,
+        "transaction_date": "2023-08-28T22:29:03.058Z",
+        "created_at": "2023-08-28T19:27:42.628Z",
+        "updated_at": "2023-08-29T05:27:10.049Z",
+        "stock_id": "71d576de-b1b3-423d-b4f6-97033aba02d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6245720-87c2-41f6-80a0-88ed278a9730",
+        "buy_sell_indicator": "BUY",
+        "quantity": 17572,
+        "transaction_date": "2023-08-28T18:26:03.378Z",
+        "created_at": "2023-08-29T03:36:20.658Z",
+        "updated_at": "2023-08-29T07:23:45.247Z",
+        "stock_id": "2df9a123-8604-480e-807e-aefb7c7647ad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "326b1e1d-b4ca-4712-a64d-26bfdee82e20",
+        "advice": "Hold",
+        "created_at": "2023-08-28T14:39:17.431Z",
+        "updated_at": "2023-08-29T06:59:59.493Z",
+        "stock_id": "fa145b68-40ba-4aa2-ad89-fc3acfba465f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd768c39-f05c-452a-9cbe-3ca7662a7b98",
+        "advice": "Buy",
+        "created_at": "2023-08-29T02:39:48.814Z",
+        "updated_at": "2023-08-29T08:12:17.260Z",
+        "stock_id": "2df9a123-8604-480e-807e-aefb7c7647ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7351cc13-37c5-4768-9183-fec63ba4069b",
+        "advice": "Sell",
+        "created_at": "2023-08-28T19:07:09.163Z",
+        "updated_at": "2023-08-28T15:01:27.028Z",
+        "stock_id": "71d576de-b1b3-423d-b4f6-97033aba02d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12a2015c-bb42-4802-9550-600c3d6e2eff",
+        "advice": "Hold",
+        "created_at": "2023-08-28T12:16:51.896Z",
+        "updated_at": "2023-08-29T02:29:27.849Z",
+        "stock_id": "71d576de-b1b3-423d-b4f6-97033aba02d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b85b9bf5-0496-43cc-b93a-567e4ac12e58",
+        "advice": "Buy",
+        "created_at": "2023-08-29T05:44:39.645Z",
+        "updated_at": "2023-08-28T09:53:01.592Z",
+        "stock_id": "b2da7d17-b2a1-4818-a89f-11bd5d5af49a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "371bfb6a-f239-4f52-86bb-34270428d823",
+        "virtual_investment": 98051,
+        "gains_losses": 40382,
+        "created_at": "2023-08-28T22:42:48.492Z",
+        "updated_at": "2023-08-29T01:37:11.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30102bad-2f19-49ca-92ba-0b70c9c4b77a",
+        "virtual_investment": 28202,
+        "gains_losses": 25763,
+        "created_at": "2023-08-29T07:30:05.289Z",
+        "updated_at": "2023-08-29T01:01:53.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f564b0d-d870-4e1d-abf1-bbed3f2fbf5d",
+        "virtual_investment": 81316,
+        "gains_losses": 94807,
+        "created_at": "2023-08-28T19:01:12.893Z",
+        "updated_at": "2023-08-28T17:33:18.914Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed6bfc4-177a-4912-83e4-de9c152e7b7b",
+        "virtual_investment": 39765,
+        "gains_losses": 69201,
+        "created_at": "2023-08-29T06:33:57.140Z",
+        "updated_at": "2023-08-28T17:41:52.384Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c876ac8-9714-41c8-8123-85f6cb79cbb6",
+        "virtual_investment": 56669,
+        "gains_losses": 8075,
+        "created_at": "2023-08-29T06:53:37.459Z",
+        "updated_at": "2023-08-28T12:55:17.325Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a8d324a3-be44-464d-bb1f-1f367705c4eb",
+        "email": "Dayna.Macejkovic23@hotmail.com",
+        "firstName": "Mireya",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56385562",
+        "tenantId": null
+      },
+      {
+        "reference": "24cb14cb-fb07-4045-a044-a059c0fff6c5",
+        "email": "Rosella_Zemlak@hotmail.com",
+        "firstName": "Lauren",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99052810",
+        "tenantId": null
+      },
+      {
+        "reference": "83092fb4-2c78-47f5-84b2-77c1df3e4fdf",
+        "email": "Domenico69@gmail.com",
+        "firstName": "Maeve",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5478484",
+        "tenantId": null
+      },
+      {
+        "reference": "28e39ec9-26ae-44d7-90ce-2dc10fb8ceec",
+        "email": "Agnes.Ryan7@hotmail.com",
+        "firstName": "Lolita",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/788.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3274e2d-fabb-4f79-b849-42c60b4decd9",
+        "email": "Colin.Senger44@hotmail.com",
+        "firstName": "Andrew",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/547.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "e921fb14-f2f2-425a-a576-b6400c741b68",
+        "name": "Apple Inc.",
+        "current_price": 81242,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Apple announces new iPhone",
+        "created_at": "2023-08-28T09:54:26.162Z",
+        "updated_at": "2023-08-28T18:00:55.355Z"
+      },
+      {
+        "id": "c15f8181-968a-4ad1-84aa-055cbca5cec4",
+        "name": "Microsoft Corporation",
+        "current_price": 18188,
+        "historical_data": "2019-12-31",
+        "relevant_news": "Microsoft releases new Windows update",
+        "created_at": "2023-08-29T05:32:17.491Z",
+        "updated_at": "2023-08-29T00:08:01.056Z"
+      },
+      {
+        "id": "95a8fc60-3cd3-48f3-bf6f-51993b22fc51",
+        "name": "Amazon.com Inc.",
+        "current_price": 37582,
+        "historical_data": "2019-12-30",
+        "relevant_news": "Amazon reports record-breaking sales",
+        "created_at": "2023-08-28T16:23:50.490Z",
+        "updated_at": "2023-08-28T10:06:55.495Z"
+      },
+      {
+        "id": "63728b2c-5625-432e-919c-a287f737664d",
+        "name": "Google LLC",
+        "current_price": 9641,
+        "historical_data": "2019-12-27",
+        "relevant_news": "Google acquires startup company",
+        "created_at": "2023-08-28T20:03:11.205Z",
+        "updated_at": "2023-08-29T06:28:50.252Z"
+      },
+      {
+        "id": "2bff6049-e953-4eac-af0a-9c7c341a07b4",
+        "name": "Facebook Inc.",
+        "current_price": 64724,
+        "historical_data": "2019-12-26",
+        "relevant_news": "Facebook introduces new privacy features",
+        "created_at": "2023-08-28T09:44:32.927Z",
+        "updated_at": "2023-08-29T03:18:50.507Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d951464c-5cb5-4659-9b98-9a6579dca90d",
+        "buy_sell_indicator": "Buy",
+        "quantity": 72934,
+        "transaction_date": "2023-08-28T11:10:49.501Z",
+        "created_at": "2023-08-29T03:48:06.622Z",
+        "updated_at": "2023-08-28T10:28:14.985Z",
+        "stock_id": "e921fb14-f2f2-425a-a576-b6400c741b68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ac04aec-dc3f-4617-b491-2c2408213a8c",
+        "buy_sell_indicator": "Sell",
+        "quantity": 31348,
+        "transaction_date": "2023-08-28T22:29:54.040Z",
+        "created_at": "2023-08-29T02:01:12.397Z",
+        "updated_at": "2023-08-28T10:55:58.058Z",
+        "stock_id": "c15f8181-968a-4ad1-84aa-055cbca5cec4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85d0c210-f498-411a-8661-d372f8513917",
+        "buy_sell_indicator": "Buy",
+        "quantity": 97940,
+        "transaction_date": "2023-08-29T04:35:45.379Z",
+        "created_at": "2023-08-28T14:07:16.172Z",
+        "updated_at": "2023-08-28T12:35:52.185Z",
+        "stock_id": "c15f8181-968a-4ad1-84aa-055cbca5cec4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98cc0e7b-2676-4294-8353-31e3f76dbe33",
+        "buy_sell_indicator": "Sell",
+        "quantity": 24342,
+        "transaction_date": "2023-08-28T13:35:24.522Z",
+        "created_at": "2023-08-28T11:08:47.209Z",
+        "updated_at": "2023-08-28T16:51:05.602Z",
+        "stock_id": "63728b2c-5625-432e-919c-a287f737664d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2bd651-cdd1-4006-8840-478b5a26e771",
+        "buy_sell_indicator": "Buy",
+        "quantity": 45775,
+        "transaction_date": "2023-08-29T03:06:07.582Z",
+        "created_at": "2023-08-29T04:55:41.169Z",
+        "updated_at": "2023-08-28T23:51:51.585Z",
+        "stock_id": "95a8fc60-3cd3-48f3-bf6f-51993b22fc51",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "8d30291b-19b0-4cac-ace6-9ed6a75329ff",
+        "advice": "Hold",
+        "created_at": "2023-08-28T12:08:20.766Z",
+        "updated_at": "2023-08-28T21:26:21.800Z",
+        "stock_id": "95a8fc60-3cd3-48f3-bf6f-51993b22fc51",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7770a001-611f-43be-8821-248a2d399d83",
+        "advice": "Buy",
+        "created_at": "2023-08-28T17:28:18.923Z",
+        "updated_at": "2023-08-28T17:07:06.615Z",
+        "stock_id": "e921fb14-f2f2-425a-a576-b6400c741b68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01145037-39a8-4cbf-ae90-8df54f207b02",
+        "advice": "Sell",
+        "created_at": "2023-08-28T14:29:07.248Z",
+        "updated_at": "2023-08-28T11:40:51.997Z",
+        "stock_id": "2bff6049-e953-4eac-af0a-9c7c341a07b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6401d07-32cc-41ef-b734-85f6198a4a55",
+        "advice": "Hold",
+        "created_at": "2023-08-29T04:07:35.149Z",
+        "updated_at": "2023-08-28T13:16:05.631Z",
+        "stock_id": "95a8fc60-3cd3-48f3-bf6f-51993b22fc51",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7e3afe0-fcd1-4851-91f3-1f0bbd8d4da1",
+        "advice": "Buy",
+        "created_at": "2023-08-28T08:51:20.431Z",
+        "updated_at": "2023-08-28T20:43:03.722Z",
+        "stock_id": "63728b2c-5625-432e-919c-a287f737664d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "3bdc03a4-f6b0-4477-89c7-7be17c721805",
+        "virtual_investment": 55082,
+        "gains_losses": 30256,
+        "created_at": "2023-08-28T16:03:32.493Z",
+        "updated_at": "2023-08-29T05:48:50.585Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "669f3bd6-ee32-448c-acc4-d2c35ffc8500",
+        "virtual_investment": 42100,
+        "gains_losses": 41005,
+        "created_at": "2023-08-29T04:28:25.405Z",
+        "updated_at": "2023-08-28T14:48:12.116Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "193e22c2-42e6-4c6c-bd49-8fe21d020b87",
+        "virtual_investment": 47266,
+        "gains_losses": 81944,
+        "created_at": "2023-08-28T22:24:20.047Z",
+        "updated_at": "2023-08-28T21:38:45.822Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "486062cc-caca-4ca7-a1e9-4e82d03170d1",
+        "virtual_investment": 3279,
+        "gains_losses": 5639,
+        "created_at": "2023-08-28T10:01:42.722Z",
+        "updated_at": "2023-08-29T04:58:11.318Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fc2ae88-1238-426a-b473-6d691398d07f",
+        "virtual_investment": 16810,
+        "gains_losses": 72291,
+        "created_at": "2023-08-28T17:27:09.255Z",
+        "updated_at": "2023-08-28T09:55:19.292Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "728d5d1c-5d10-4030-985e-106d7372318c",
+        "email": "Alvena.Heller@yahoo.com",
+        "firstName": "Jany",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37260468",
+        "tenantId": null
+      },
+      {
+        "reference": "ad09d266-0969-4ed1-9efb-0c630dccf7e6",
+        "email": "Loyal.Price33@hotmail.com",
+        "firstName": "Osbaldo",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58684032",
+        "tenantId": null
+      },
+      {
+        "reference": "67030f63-0887-41f4-9438-f277a47940df",
+        "email": "Bridgette94@yahoo.com",
+        "firstName": "Emilio",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88551452",
+        "tenantId": null
+      },
+      {
+        "reference": "8029fc29-aa1f-459e-b214-b18fa1c54b93",
+        "email": "Jabari_Carter@yahoo.com",
+        "firstName": "Turner",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95338131",
+        "tenantId": null
+      },
+      {
+        "reference": "0884bea2-63a6-4c92-ac74-c46882db7ab1",
+        "email": "Skyla_Dicki-Satterfield@hotmail.com",
+        "firstName": "Ewald",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/765.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "9f27ec9e-cd4d-4ade-ab20-a71cf1f42062",
+        "name": "Apple Inc.",
+        "current_price": 58086,
+        "historical_data": "2021-01-01",
+        "relevant_news": "Apple announces new iPhone",
+        "created_at": "2023-08-28T10:17:10.602Z",
+        "updated_at": "2023-08-28T11:12:54.502Z"
+      },
+      {
+        "id": "5f34553e-4435-4d66-903c-972251715e3e",
+        "name": "Microsoft Corporation",
+        "current_price": 63650,
+        "historical_data": "2021-02-01",
+        "relevant_news": "Microsoft launches new Windows version",
+        "created_at": "2023-08-29T05:26:48.998Z",
+        "updated_at": "2023-08-28T20:24:57.214Z"
+      },
+      {
+        "id": "a17071f8-7028-4a76-8728-0a248eb96327",
+        "name": "Amazon.com Inc.",
+        "current_price": 1576,
+        "historical_data": "2021-03-01",
+        "relevant_news": "Amazon reports record-breaking sales",
+        "created_at": "2023-08-29T02:23:28.270Z",
+        "updated_at": "2023-08-28T12:17:59.678Z"
+      },
+      {
+        "id": "ba9b4782-425b-46ff-91a9-5c3058516b5b",
+        "name": "Tesla Inc.",
+        "current_price": 66586,
+        "historical_data": "2021-04-01",
+        "relevant_news": "Tesla unveils new electric vehicle",
+        "created_at": "2023-08-29T03:12:14.217Z",
+        "updated_at": "2023-08-28T12:44:30.054Z"
+      },
+      {
+        "id": "b5d7aeb5-440a-4899-bce9-a0206d676e25",
+        "name": "Google LLC",
+        "current_price": 83545,
+        "historical_data": "2021-05-01",
+        "relevant_news": "Google acquires AI startup",
+        "created_at": "2023-08-28T23:51:28.330Z",
+        "updated_at": "2023-08-28T09:23:26.986Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "264f751a-b632-4227-b5c6-9a280d91c65e",
+        "buy_sell_indicator": "Buy",
+        "quantity": 95616,
+        "transaction_date": "2023-08-28T11:25:22.059Z",
+        "created_at": "2023-08-28T09:39:29.642Z",
+        "updated_at": "2023-08-28T18:11:26.220Z",
+        "stock_id": "ba9b4782-425b-46ff-91a9-5c3058516b5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee8842f1-2359-4bed-867b-df6863986921",
+        "buy_sell_indicator": "Sell",
+        "quantity": 96218,
+        "transaction_date": "2023-08-29T07:29:23.450Z",
+        "created_at": "2023-08-28T12:46:50.306Z",
+        "updated_at": "2023-08-28T19:01:52.956Z",
+        "stock_id": "ba9b4782-425b-46ff-91a9-5c3058516b5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22e998cc-a309-433b-a255-29a02bff75b5",
+        "buy_sell_indicator": "Buy",
+        "quantity": 39457,
+        "transaction_date": "2023-08-28T08:24:19.554Z",
+        "created_at": "2023-08-28T18:22:19.927Z",
+        "updated_at": "2023-08-29T04:27:54.782Z",
+        "stock_id": "a17071f8-7028-4a76-8728-0a248eb96327",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50d2d3d9-41eb-479a-aa5d-d86f70ca4361",
+        "buy_sell_indicator": "Sell",
+        "quantity": 63714,
+        "transaction_date": "2023-08-29T04:21:53.759Z",
+        "created_at": "2023-08-29T05:42:02.073Z",
+        "updated_at": "2023-08-28T11:04:18.096Z",
+        "stock_id": "b5d7aeb5-440a-4899-bce9-a0206d676e25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9235223-e8a3-4ea4-98e7-9bbf07898553",
+        "buy_sell_indicator": "Buy",
+        "quantity": 55553,
+        "transaction_date": "2023-08-28T11:28:10.912Z",
+        "created_at": "2023-08-29T05:10:21.090Z",
+        "updated_at": "2023-08-29T08:04:54.962Z",
+        "stock_id": "9f27ec9e-cd4d-4ade-ab20-a71cf1f42062",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "f98e31ad-1fce-4984-a411-5b16687aaf7a",
+        "advice": "Invest in technology stocks",
+        "created_at": "2023-08-29T06:35:11.829Z",
+        "updated_at": "2023-08-28T22:30:34.765Z",
+        "stock_id": "b5d7aeb5-440a-4899-bce9-a0206d676e25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e8a8cf4-dfba-4306-9c4a-2a59bdf0ecd5",
+        "advice": "Diversify your portfolio",
+        "created_at": "2023-08-28T23:55:26.479Z",
+        "updated_at": "2023-08-29T00:09:31.195Z",
+        "stock_id": "5f34553e-4435-4d66-903c-972251715e3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64b7ae6f-4008-4941-850b-e355e35fd339",
+        "advice": "Consider long-term investments",
+        "created_at": "2023-08-29T01:07:06.732Z",
+        "updated_at": "2023-08-28T09:41:29.500Z",
+        "stock_id": "ba9b4782-425b-46ff-91a9-5c3058516b5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110853bc-8168-4ea4-bd9d-1d36355e7c00",
+        "advice": "Monitor market trends",
+        "created_at": "2023-08-28T08:47:32.078Z",
+        "updated_at": "2023-08-29T02:01:16.491Z",
+        "stock_id": "b5d7aeb5-440a-4899-bce9-a0206d676e25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7965cb9b-a672-40a3-9992-a5a674158489",
+        "advice": "Consult a financial advisor",
+        "created_at": "2023-08-28T10:31:43.833Z",
+        "updated_at": "2023-08-28T19:08:43.853Z",
+        "stock_id": "5f34553e-4435-4d66-903c-972251715e3e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "1d2a41ea-7a9d-4fb4-98b3-c3322cbf98ce",
+        "virtual_investment": 53566,
+        "gains_losses": 56168,
+        "created_at": "2023-08-29T06:38:17.527Z",
+        "updated_at": "2023-08-29T03:45:34.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f2036bd-9452-48eb-87c7-8267eef83a5e",
+        "virtual_investment": 43422,
+        "gains_losses": 57103,
+        "created_at": "2023-08-28T17:13:39.215Z",
+        "updated_at": "2023-08-28T17:38:52.162Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "643492b0-6705-49c8-91f0-d7f0d56d2f3f",
+        "virtual_investment": 25164,
+        "gains_losses": 4243,
+        "created_at": "2023-08-28T14:58:37.263Z",
+        "updated_at": "2023-08-29T00:17:00.656Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf84bb9c-2abe-4e06-962c-8fdaa5c18ad9",
+        "virtual_investment": 27065,
+        "gains_losses": 96658,
+        "created_at": "2023-08-28T11:10:26.800Z",
+        "updated_at": "2023-08-29T06:36:30.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca85a9c7-97ce-4b2c-a33e-a6b53006c387",
+        "virtual_investment": 41688,
+        "gains_losses": 91146,
+        "created_at": "2023-08-29T05:35:51.761Z",
+        "updated_at": "2023-08-28T13:00:04.764Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "17325953-bc65-47e5-8413-f867eae71a17",
+        "email": "Geovanni18@hotmail.com",
+        "firstName": "Roel",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99436207",
+        "tenantId": null
+      },
+      {
+        "reference": "e43cf6a4-c8b0-4484-a6a2-f95ac6765da6",
+        "email": "Angeline_Oberbrunner79@yahoo.com",
+        "firstName": "Adrienne",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/461.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "86ca72dc-9606-4e25-bb86-36584fbf9c24",
+        "email": "Baron51@gmail.com",
+        "firstName": "Lucius",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16ff4670-c2df-4f64-b6c2-93d7c34a1160",
+        "email": "Miles_Bode29@yahoo.com",
+        "firstName": "Chanel",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54520550",
+        "tenantId": null
+      },
+      {
+        "reference": "3143543f-0c8c-4c68-b9ae-76658c048ae4",
+        "email": "Trystan95@gmail.com",
+        "firstName": "Vernon",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/485310",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "e5cbc2e8-0879-45e4-a8eb-b09deebe4189",
+        "name": "Apple Inc.",
+        "current_price": 84539,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Apple announces new iPhone",
+        "created_at": "2023-08-28T10:52:21.004Z",
+        "updated_at": "2023-08-28T08:46:27.923Z"
+      },
+      {
+        "id": "a562f7c0-06f3-485a-8517-f49c4ef37ca0",
+        "name": "Microsoft Corporation",
+        "current_price": 33396,
+        "historical_data": "2019-12-31",
+        "relevant_news": "Microsoft releases Windows 10 update",
+        "created_at": "2023-08-28T09:29:49.256Z",
+        "updated_at": "2023-08-28T22:03:53.245Z"
+      },
+      {
+        "id": "ff0f61c3-594b-43ce-87b7-fe2b822d69fb",
+        "name": "Amazon.com Inc.",
+        "current_price": 48002,
+        "historical_data": "2019-12-30",
+        "relevant_news": "Amazon reports record-breaking sales",
+        "created_at": "2023-08-28T15:09:05.181Z",
+        "updated_at": "2023-08-28T08:57:40.117Z"
+      },
+      {
+        "id": "bde3c545-9790-49b8-95eb-e2ad621e1645",
+        "name": "Google LLC",
+        "current_price": 69673,
+        "historical_data": "2019-12-27",
+        "relevant_news": "Google acquires startup company",
+        "created_at": "2023-08-28T22:19:52.866Z",
+        "updated_at": "2023-08-28T19:49:12.887Z"
+      },
+      {
+        "id": "ef9539d9-058b-48ce-889e-cf8943781078",
+        "name": "Facebook Inc.",
+        "current_price": 91897,
+        "historical_data": "2019-12-26",
+        "relevant_news": "Facebook introduces new privacy features",
+        "created_at": "2023-08-28T15:37:10.818Z",
+        "updated_at": "2023-08-28T23:57:00.801Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "7df12f42-ee65-4b06-a5f0-52360d000791",
+        "buy_sell_indicator": "Buy",
+        "quantity": 44293,
+        "transaction_date": "2023-08-29T03:45:32.222Z",
+        "created_at": "2023-08-29T02:46:25.827Z",
+        "updated_at": "2023-08-28T22:48:23.244Z",
+        "stock_id": "bde3c545-9790-49b8-95eb-e2ad621e1645",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f65b23e6-8fbb-494c-b6ef-29ae3ab96f9f",
+        "buy_sell_indicator": "Sell",
+        "quantity": 81861,
+        "transaction_date": "2023-08-28T17:03:36.601Z",
+        "created_at": "2023-08-29T00:11:46.649Z",
+        "updated_at": "2023-08-29T01:32:50.110Z",
+        "stock_id": "bde3c545-9790-49b8-95eb-e2ad621e1645",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d26004d1-50fa-48a2-b07f-5726c64b7141",
+        "buy_sell_indicator": "Buy",
+        "quantity": 49815,
+        "transaction_date": "2023-08-28T22:44:55.239Z",
+        "created_at": "2023-08-28T16:33:28.554Z",
+        "updated_at": "2023-08-29T04:51:31.536Z",
+        "stock_id": "a562f7c0-06f3-485a-8517-f49c4ef37ca0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03a54a07-13f0-42bb-a107-eca71c358613",
+        "buy_sell_indicator": "Sell",
+        "quantity": 10773,
+        "transaction_date": "2023-08-28T15:31:12.158Z",
+        "created_at": "2023-08-29T06:35:05.521Z",
+        "updated_at": "2023-08-28T18:02:51.238Z",
+        "stock_id": "ef9539d9-058b-48ce-889e-cf8943781078",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1445959b-d053-4c44-8598-9b4e6825c10c",
+        "buy_sell_indicator": "Buy",
+        "quantity": 45213,
+        "transaction_date": "2023-08-28T11:08:37.398Z",
+        "created_at": "2023-08-29T02:53:18.028Z",
+        "updated_at": "2023-08-29T00:38:17.841Z",
+        "stock_id": "ef9539d9-058b-48ce-889e-cf8943781078",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "93af73af-4282-48a9-bcff-271601345240",
+        "advice": "Invest in technology stocks",
+        "created_at": "2023-08-29T05:50:37.681Z",
+        "updated_at": "2023-08-28T14:22:43.415Z",
+        "stock_id": "ef9539d9-058b-48ce-889e-cf8943781078",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c6b9ef2-a576-4c68-accb-b7303bf2d7b6",
+        "advice": "Diversify your portfolio",
+        "created_at": "2023-08-29T01:59:38.858Z",
+        "updated_at": "2023-08-28T14:13:38.478Z",
+        "stock_id": "ff0f61c3-594b-43ce-87b7-fe2b822d69fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "384ce0bf-3f1c-4ad6-8850-9d88674012e7",
+        "advice": "Consider long-term investments",
+        "created_at": "2023-08-29T03:47:39.944Z",
+        "updated_at": "2023-08-28T16:57:45.057Z",
+        "stock_id": "bde3c545-9790-49b8-95eb-e2ad621e1645",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37ce3812-6f61-4afe-a5e8-d98341349697",
+        "advice": "Stay updated with market trends",
+        "created_at": "2023-08-28T23:35:03.499Z",
+        "updated_at": "2023-08-29T05:07:22.486Z",
+        "stock_id": "a562f7c0-06f3-485a-8517-f49c4ef37ca0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1d0b672-fba2-4eb2-8443-d49eb4f263b8",
+        "advice": "Consult a financial advisor",
+        "created_at": "2023-08-28T08:19:02.630Z",
+        "updated_at": "2023-08-28T18:50:58.478Z",
+        "stock_id": "a562f7c0-06f3-485a-8517-f49c4ef37ca0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "971bea64-ecea-4883-b006-8b7c98ad2c35",
+        "virtual_investment": 77796,
+        "gains_losses": 72466,
+        "created_at": "2023-08-28T14:00:08.990Z",
+        "updated_at": "2023-08-28T21:08:43.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5febba55-ea2d-4264-99d0-f532f1e58f09",
+        "virtual_investment": 5828,
+        "gains_losses": 87548,
+        "created_at": "2023-08-29T04:10:43.782Z",
+        "updated_at": "2023-08-28T15:38:31.638Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1630f9d0-e000-4c44-975b-e0205942b04c",
+        "virtual_investment": 68018,
+        "gains_losses": 62594,
+        "created_at": "2023-08-29T00:12:04.659Z",
+        "updated_at": "2023-08-29T02:40:27.964Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d1bb91d-e9da-49f5-aa32-e106ed49f06d",
+        "virtual_investment": 80522,
+        "gains_losses": 24578,
+        "created_at": "2023-08-28T16:13:43.947Z",
+        "updated_at": "2023-08-28T12:02:47.149Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38791275-0dee-48b5-be40-2f72d8f14abd",
+        "virtual_investment": 54163,
+        "gains_losses": 65619,
+        "created_at": "2023-08-28T10:01:11.503Z",
+        "updated_at": "2023-08-28T16:26:27.459Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "31011bf0-03bf-44f7-9818-73b978604544",
+        "email": "Adolfo_Champlin@yahoo.com",
+        "firstName": "Tina",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92273599",
+        "tenantId": null
+      },
+      {
+        "reference": "47db7c63-1bac-4cb8-a3aa-d32b3b2f8c74",
+        "email": "Macey67@hotmail.com",
+        "firstName": "Edgardo",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/981.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2246567b-de0c-4c94-b087-ffe1bd3a53b6",
+        "email": "Lukas.Reichel@yahoo.com",
+        "firstName": "Bruce",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37755800",
+        "tenantId": null
+      },
+      {
+        "reference": "6247beb7-4d8f-4e7d-a432-d732d707341d",
+        "email": "Mac35@hotmail.com",
+        "firstName": "Simone",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/677.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "693c9b1d-8d7b-4740-ba70-49fc31042745",
+        "email": "Levi.Green25@gmail.com",
+        "firstName": "Orie",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6207650",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "3bcabef2-6b13-4cb6-977b-31b64e6c7499",
+        "name": "Apple Inc.",
+        "current_price": 35748,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Apple launches new iPhone",
+        "created_at": "2023-08-29T03:44:54.119Z",
+        "updated_at": "2023-08-29T00:13:40.747Z"
+      },
+      {
+        "id": "2db9c1ad-06ac-4f3c-9810-2fe625c770cf",
+        "name": "Microsoft Corporation",
+        "current_price": 63210,
+        "historical_data": "2019-12-31",
+        "relevant_news": "Microsoft announces quarterly earnings",
+        "created_at": "2023-08-29T00:30:49.841Z",
+        "updated_at": "2023-08-28T15:08:03.244Z"
+      },
+      {
+        "id": "defafce2-6ca6-4562-88ea-9a87b3dde257",
+        "name": "Amazon.com Inc.",
+        "current_price": 86371,
+        "historical_data": "2019-12-30",
+        "relevant_news": "Amazon expands its delivery services",
+        "created_at": "2023-08-28T10:28:27.966Z",
+        "updated_at": "2023-08-29T06:26:07.489Z"
+      },
+      {
+        "id": "1415552d-fd1b-435a-a822-15db7fe46ced",
+        "name": "Google LLC",
+        "current_price": 48737,
+        "historical_data": "2019-12-27",
+        "relevant_news": "Google develops new AI technology",
+        "created_at": "2023-08-28T08:38:27.948Z",
+        "updated_at": "2023-08-29T07:00:15.853Z"
+      },
+      {
+        "id": "b8f8f0ce-fe46-41c7-afab-1127d4c4878b",
+        "name": "Facebook Inc.",
+        "current_price": 7514,
+        "historical_data": "2019-12-26",
+        "relevant_news": "Facebook introduces new privacy features",
+        "created_at": "2023-08-28T17:39:41.699Z",
+        "updated_at": "2023-08-28T19:57:38.894Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "de196d6a-e229-4ba7-8ef7-8d4d934f643c",
+        "buy_sell_indicator": "Buy",
+        "quantity": 65117,
+        "transaction_date": "2023-08-29T04:39:01.761Z",
+        "created_at": "2023-08-28T13:30:30.339Z",
+        "updated_at": "2023-08-28T17:07:19.673Z",
+        "stock_id": "b8f8f0ce-fe46-41c7-afab-1127d4c4878b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718d91ed-b8a3-488c-bbe6-e02a8efe48d2",
+        "buy_sell_indicator": "Sell",
+        "quantity": 36424,
+        "transaction_date": "2023-08-28T13:18:32.590Z",
+        "created_at": "2023-08-29T02:30:42.884Z",
+        "updated_at": "2023-08-28T18:04:41.638Z",
+        "stock_id": "1415552d-fd1b-435a-a822-15db7fe46ced",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2abf4fd2-ab2a-4798-9ae4-69fecc32f2a2",
+        "buy_sell_indicator": "Buy",
+        "quantity": 16185,
+        "transaction_date": "2023-08-28T23:12:22.364Z",
+        "created_at": "2023-08-29T02:36:03.666Z",
+        "updated_at": "2023-08-28T08:31:29.956Z",
+        "stock_id": "defafce2-6ca6-4562-88ea-9a87b3dde257",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4eae8b89-1864-4566-901a-47ced46d5bd6",
+        "buy_sell_indicator": "Sell",
+        "quantity": 91173,
+        "transaction_date": "2023-08-29T07:40:13.171Z",
+        "created_at": "2023-08-29T05:32:09.172Z",
+        "updated_at": "2023-08-29T02:25:20.982Z",
+        "stock_id": "defafce2-6ca6-4562-88ea-9a87b3dde257",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64395466-e551-41ea-8d95-72f1e6265a00",
+        "buy_sell_indicator": "Buy",
+        "quantity": 27631,
+        "transaction_date": "2023-08-28T17:29:53.746Z",
+        "created_at": "2023-08-28T22:13:06.189Z",
+        "updated_at": "2023-08-29T00:51:44.908Z",
+        "stock_id": "3bcabef2-6b13-4cb6-977b-31b64e6c7499",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "11fbad79-a1c3-4365-8d80-194655d5e175",
+        "advice": "Invest in tech stocks",
+        "created_at": "2023-08-28T15:09:42.211Z",
+        "updated_at": "2023-08-29T06:33:35.887Z",
+        "stock_id": "3bcabef2-6b13-4cb6-977b-31b64e6c7499",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "430969e5-6d36-45dd-84cb-c7aacbf43f84",
+        "advice": "Diversify your portfolio",
+        "created_at": "2023-08-28T18:17:00.000Z",
+        "updated_at": "2023-08-29T04:29:56.070Z",
+        "stock_id": "2db9c1ad-06ac-4f3c-9810-2fe625c770cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67e69796-62e3-46ef-8d89-b5d92d1377a0",
+        "advice": "Consider long-term investments",
+        "created_at": "2023-08-28T12:12:46.457Z",
+        "updated_at": "2023-08-29T02:08:37.278Z",
+        "stock_id": "3bcabef2-6b13-4cb6-977b-31b64e6c7499",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf765be3-ded4-4128-a3a4-225bea10014d",
+        "advice": "Stay updated with market trends",
+        "created_at": "2023-08-29T01:21:13.751Z",
+        "updated_at": "2023-08-28T20:37:53.325Z",
+        "stock_id": "defafce2-6ca6-4562-88ea-9a87b3dde257",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33951074-cbd4-4808-baa8-b3d917d492d2",
+        "advice": "Consult a financial advisor",
+        "created_at": "2023-08-28T18:51:43.109Z",
+        "updated_at": "2023-08-28T09:18:21.120Z",
+        "stock_id": "3bcabef2-6b13-4cb6-977b-31b64e6c7499",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "d3d94484-d1dc-437a-a344-33ca1bab7644",
+        "virtual_investment": 43537,
+        "gains_losses": 17205,
+        "created_at": "2023-08-29T06:37:51.767Z",
+        "updated_at": "2023-08-28T17:29:29.610Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "144ce605-fae6-40f1-9ecb-ecb8607ec96b",
+        "virtual_investment": 18059,
+        "gains_losses": 32116,
+        "created_at": "2023-08-28T09:44:09.319Z",
+        "updated_at": "2023-08-28T23:58:26.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3591d1ff-91a7-4b5a-bb42-2da484b3770c",
+        "virtual_investment": 12824,
+        "gains_losses": 88366,
+        "created_at": "2023-08-29T04:08:50.054Z",
+        "updated_at": "2023-08-28T08:58:52.553Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d805106-6d55-4a90-b312-be9cb1d80545",
+        "virtual_investment": 31736,
+        "gains_losses": 30893,
+        "created_at": "2023-08-28T20:59:03.423Z",
+        "updated_at": "2023-08-28T08:32:51.753Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c674c4ce-9620-4d7f-a1fd-2bca79dc9d83",
+        "virtual_investment": 87168,
+        "gains_losses": 38164,
+        "created_at": "2023-08-28T16:01:40.287Z",
+        "updated_at": "2023-08-28T20:20:22.831Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2b52a103-46af-4e1f-8413-44c7856da25f",
+        "email": "Kurtis.Stracke14@yahoo.com",
+        "firstName": "Lisa",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41376de4-0e54-42b8-baef-4ac9900c1156",
+        "email": "Janie_Quigley30@yahoo.com",
+        "firstName": "Dora",
+        "lastName": "Bruen-Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44738732",
+        "tenantId": null
+      },
+      {
+        "reference": "fba53eef-475f-4514-8c8a-bbc030d3ac74",
+        "email": "Earline.Muller@yahoo.com",
+        "firstName": "Jewell",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0dc6178-79c4-46ba-8089-570b803526d8",
+        "email": "Gabrielle_Sporer64@yahoo.com",
+        "firstName": "Amber",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15768937",
+        "tenantId": null
+      },
+      {
+        "reference": "723277b4-4759-44e2-b774-10637bdc5101",
+        "email": "Bret40@gmail.com",
+        "firstName": "Monserrate",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/652.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "147fd63c-7e66-4a7f-b9b5-c4246e2b32e3",
+        "name": "Apple Inc.",
+        "current_price": 36149,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Apple announces new iPhone",
+        "created_at": "2023-08-29T05:29:36.994Z",
+        "updated_at": "2023-08-29T01:20:09.893Z"
+      },
+      {
+        "id": "c0b64846-03fd-4dd7-a5c8-beb83225eacc",
+        "name": "Microsoft Corporation",
+        "current_price": 71339,
+        "historical_data": "2019-12-31",
+        "relevant_news": "Microsoft releases Windows 10 update",
+        "created_at": "2023-08-28T23:24:51.083Z",
+        "updated_at": "2023-08-28T19:06:44.440Z"
+      },
+      {
+        "id": "24af0a11-acec-4a05-bb72-b1c77435b58d",
+        "name": "Amazon.com Inc.",
+        "current_price": 87761,
+        "historical_data": "2019-12-30",
+        "relevant_news": "Amazon reports record-breaking sales",
+        "created_at": "2023-08-28T13:08:08.420Z",
+        "updated_at": "2023-08-28T09:16:47.694Z"
+      },
+      {
+        "id": "d2afd100-6df7-4b34-9b73-7a6e016988f2",
+        "name": "Google LLC",
+        "current_price": 66754,
+        "historical_data": "2019-12-27",
+        "relevant_news": "Google launches new AI technology",
+        "created_at": "2023-08-29T00:52:16.757Z",
+        "updated_at": "2023-08-28T21:01:51.094Z"
+      },
+      {
+        "id": "785f9211-fecd-454c-9c90-d932d8c0d544",
+        "name": "Facebook Inc.",
+        "current_price": 34600,
+        "historical_data": "2019-12-26",
+        "relevant_news": "Facebook introduces new privacy features",
+        "created_at": "2023-08-29T06:58:27.714Z",
+        "updated_at": "2023-08-29T00:02:51.173Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "1acea172-9e2b-4330-bc8f-0c2590ddafee",
+        "buy_sell_indicator": "Buy",
+        "quantity": 47382,
+        "transaction_date": "2023-08-28T20:07:26.938Z",
+        "created_at": "2023-08-28T14:20:17.037Z",
+        "updated_at": "2023-08-28T21:59:10.260Z",
+        "stock_id": "c0b64846-03fd-4dd7-a5c8-beb83225eacc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c07831d6-742e-408b-b491-643f5e550bb2",
+        "buy_sell_indicator": "Sell",
+        "quantity": 25979,
+        "transaction_date": "2023-08-28T15:30:02.642Z",
+        "created_at": "2023-08-29T06:47:22.362Z",
+        "updated_at": "2023-08-28T11:31:33.269Z",
+        "stock_id": "24af0a11-acec-4a05-bb72-b1c77435b58d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa196aff-2868-4229-8195-e8b28368be81",
+        "buy_sell_indicator": "Buy",
+        "quantity": 84275,
+        "transaction_date": "2023-08-29T04:30:18.564Z",
+        "created_at": "2023-08-29T01:59:24.411Z",
+        "updated_at": "2023-08-28T19:58:36.448Z",
+        "stock_id": "785f9211-fecd-454c-9c90-d932d8c0d544",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74552fd7-16f6-44f2-a535-eb9d65fbeea1",
+        "buy_sell_indicator": "Buy",
+        "quantity": 55869,
+        "transaction_date": "2023-08-28T15:49:41.335Z",
+        "created_at": "2023-08-28T14:28:59.274Z",
+        "updated_at": "2023-08-28T13:18:54.423Z",
+        "stock_id": "24af0a11-acec-4a05-bb72-b1c77435b58d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2874de62-2bfb-4b24-b73e-e70e2e795abe",
+        "buy_sell_indicator": "Sell",
+        "quantity": 29904,
+        "transaction_date": "2023-08-28T08:31:06.482Z",
+        "created_at": "2023-08-28T15:31:10.995Z",
+        "updated_at": "2023-08-28T22:29:41.229Z",
+        "stock_id": "147fd63c-7e66-4a7f-b9b5-c4246e2b32e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "05ad45fc-4187-4195-88d4-e78eb7e7ad93",
+        "advice": "Invest in technology stocks",
+        "created_at": "2023-08-28T22:05:21.548Z",
+        "updated_at": "2023-08-28T13:57:22.329Z",
+        "stock_id": "d2afd100-6df7-4b34-9b73-7a6e016988f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c35eb4a-1ac8-498a-8fc3-892d37ffee75",
+        "advice": "Diversify your portfolio",
+        "created_at": "2023-08-28T10:17:15.241Z",
+        "updated_at": "2023-08-28T17:17:32.198Z",
+        "stock_id": "785f9211-fecd-454c-9c90-d932d8c0d544",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88e90b49-0261-4ddb-95f9-1f2423e41575",
+        "advice": "Consider long-term investments",
+        "created_at": "2023-08-28T11:06:06.945Z",
+        "updated_at": "2023-08-29T02:01:29.126Z",
+        "stock_id": "d2afd100-6df7-4b34-9b73-7a6e016988f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "891bd6d8-2725-450a-a0f1-1d40c1dca405",
+        "advice": "Monitor market trends",
+        "created_at": "2023-08-29T06:20:10.098Z",
+        "updated_at": "2023-08-28T15:09:14.674Z",
+        "stock_id": "d2afd100-6df7-4b34-9b73-7a6e016988f2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad2e0d05-bb52-4b91-8e21-e0778b1385b9",
+        "advice": "Consult with a financial advisor",
+        "created_at": "2023-08-28T16:49:57.825Z",
+        "updated_at": "2023-08-28T23:08:29.317Z",
+        "stock_id": "147fd63c-7e66-4a7f-b9b5-c4246e2b32e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "54d90588-d73f-4e0f-8174-0caf0f8b7c26",
+        "virtual_investment": 95879,
+        "gains_losses": 90739,
+        "created_at": "2023-08-28T10:27:48.156Z",
+        "updated_at": "2023-08-28T18:47:57.925Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a172c180-b6a1-4e66-bb38-c8a46ba9e67c",
+        "virtual_investment": 65084,
+        "gains_losses": 22744,
+        "created_at": "2023-08-28T20:00:35.994Z",
+        "updated_at": "2023-08-28T08:58:05.554Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eba63915-4060-4d69-9455-8e0392ec8ae2",
+        "virtual_investment": 31887,
+        "gains_losses": 23206,
+        "created_at": "2023-08-29T06:54:08.056Z",
+        "updated_at": "2023-08-29T04:26:48.449Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89b6af51-74ba-4cb7-827c-d9c19ecc6705",
+        "virtual_investment": 35870,
+        "gains_losses": 69624,
+        "created_at": "2023-08-28T21:06:58.500Z",
+        "updated_at": "2023-08-29T03:30:29.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81434fae-b329-47de-97c0-9bdc56bbfc61",
+        "virtual_investment": 20505,
+        "gains_losses": 25577,
+        "created_at": "2023-08-29T00:07:04.247Z",
+        "updated_at": "2023-08-28T23:32:16.517Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e1a9b32e-ee4f-4517-921d-e750f4a525b1",
+        "email": "Conner.Fritsch@yahoo.com",
+        "firstName": "Vern",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31478188",
+        "tenantId": null
+      },
+      {
+        "reference": "9fa17dc0-7564-4d83-842f-1ca2c0528553",
+        "email": "Emelia.Ledner@hotmail.com",
+        "firstName": "Karlie",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26878134",
+        "tenantId": null
+      },
+      {
+        "reference": "a81e6037-a8c5-4570-8b90-f743e6dd3d51",
+        "email": "Halle_Mueller53@yahoo.com",
+        "firstName": "Kaitlyn",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94b08874-4d51-42f2-bb38-a459939a843d",
+        "email": "Domenick.Stracke@yahoo.com",
+        "firstName": "Dante",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19684854",
+        "tenantId": null
+      },
+      {
+        "reference": "9f968d01-1dbc-4643-b703-3ab70e50af07",
+        "email": "Sonia.Gerhold@gmail.com",
+        "firstName": "Noah",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/109.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "0bcf10e6-b87c-46bd-acf6-5312cdd2ce53",
+        "name": "Apple Inc.",
+        "current_price": 69407,
+        "historical_data": "2020-01-01",
+        "relevant_news": "Tech giant announces new product",
+        "created_at": "2023-08-28T10:40:21.629Z",
+        "updated_at": "2023-08-29T01:01:48.057Z"
+      },
+      {
+        "id": "f342159a-4843-4067-87e8-f67abe211129",
+        "name": "Microsoft Corporation",
+        "current_price": 98115,
+        "historical_data": "2020-02-01",
+        "relevant_news": "Company reports record-breaking earnings",
+        "created_at": "2023-08-28T20:01:36.184Z",
+        "updated_at": "2023-08-28T20:55:12.211Z"
+      },
+      {
+        "id": "fc0f633a-0911-44cf-ab1d-9c5f22e19675",
+        "name": "Amazon.com Inc.",
+        "current_price": 36679,
+        "historical_data": "2020-03-01",
+        "relevant_news": "Stock price reaches all-time high",
+        "created_at": "2023-08-29T01:15:49.907Z",
+        "updated_at": "2023-08-29T08:17:27.935Z"
+      },
+      {
+        "id": "f5760700-9fb1-4f80-9702-1f33a8a50a68",
+        "name": "Tesla Inc.",
+        "current_price": 62395,
+        "historical_data": "2020-04-01",
+        "relevant_news": "CEO steps down, stock plummets",
+        "created_at": "2023-08-28T11:59:38.659Z",
+        "updated_at": "2023-08-28T18:04:20.052Z"
+      },
+      {
+        "id": "6df383b9-a63a-4ded-9608-21e65df98bda",
+        "name": "Facebook Inc.",
+        "current_price": 83310,
+        "historical_data": "2020-05-01",
+        "relevant_news": "Company acquires competitor",
+        "created_at": "2023-08-28T14:41:31.178Z",
+        "updated_at": "2023-08-28T21:22:50.169Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "c8b40708-8b95-4a44-8584-cfd24f6ed643",
+        "buy_sell_indicator": "Buy",
+        "quantity": 26050,
+        "transaction_date": "2023-08-28T16:51:24.361Z",
+        "created_at": "2023-08-28T11:13:46.576Z",
+        "updated_at": "2023-08-28T10:27:20.562Z",
+        "stock_id": "fc0f633a-0911-44cf-ab1d-9c5f22e19675",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b7059e1-c9a5-45a3-b3ea-82a665dc073f",
+        "buy_sell_indicator": "Sell",
+        "quantity": 72346,
+        "transaction_date": "2023-08-28T09:40:39.122Z",
+        "created_at": "2023-08-29T01:38:31.698Z",
+        "updated_at": "2023-08-29T02:09:19.453Z",
+        "stock_id": "6df383b9-a63a-4ded-9608-21e65df98bda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e55c6d98-1259-424d-a2db-14482a0ae7b2",
+        "buy_sell_indicator": "Buy",
+        "quantity": 97263,
+        "transaction_date": "2023-08-28T16:15:47.388Z",
+        "created_at": "2023-08-28T23:11:08.051Z",
+        "updated_at": "2023-08-28T20:11:21.053Z",
+        "stock_id": "f5760700-9fb1-4f80-9702-1f33a8a50a68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b8f755f-47f6-40eb-8396-2df3612b8ddb",
+        "buy_sell_indicator": "Sell",
+        "quantity": 22316,
+        "transaction_date": "2023-08-29T05:08:59.082Z",
+        "created_at": "2023-08-29T03:54:56.611Z",
+        "updated_at": "2023-08-29T00:26:13.564Z",
+        "stock_id": "6df383b9-a63a-4ded-9608-21e65df98bda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "483af27b-a66a-4119-848c-d505fa5312df",
+        "buy_sell_indicator": "Buy",
+        "quantity": 31079,
+        "transaction_date": "2023-08-29T00:07:38.644Z",
+        "created_at": "2023-08-29T07:22:27.170Z",
+        "updated_at": "2023-08-28T20:43:37.682Z",
+        "stock_id": "6df383b9-a63a-4ded-9608-21e65df98bda",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "c359b01d-b434-4f83-8e41-dacd44a14795",
+        "advice": "Hold",
+        "created_at": "2023-08-28T17:21:05.672Z",
+        "updated_at": "2023-08-28T17:16:52.928Z",
+        "stock_id": "6df383b9-a63a-4ded-9608-21e65df98bda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f0eb821-864f-42ee-ad00-fa3608da6fce",
+        "advice": "Buy",
+        "created_at": "2023-08-28T21:46:53.989Z",
+        "updated_at": "2023-08-28T22:39:43.380Z",
+        "stock_id": "0bcf10e6-b87c-46bd-acf6-5312cdd2ce53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ca1bcf9-2177-4fc3-9cde-d0691d8c0ae4",
+        "advice": "Sell",
+        "created_at": "2023-08-28T23:08:10.834Z",
+        "updated_at": "2023-08-28T11:53:06.729Z",
+        "stock_id": "0bcf10e6-b87c-46bd-acf6-5312cdd2ce53",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285893c7-b957-4824-9a7e-0c3ac98e9b11",
+        "advice": "Hold",
+        "created_at": "2023-08-29T04:30:37.401Z",
+        "updated_at": "2023-08-28T17:43:06.341Z",
+        "stock_id": "f342159a-4843-4067-87e8-f67abe211129",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8a1aea9-c023-445f-a19b-fb69b3ea25d7",
+        "advice": "Buy",
+        "created_at": "2023-08-28T16:26:06.027Z",
+        "updated_at": "2023-08-28T14:22:39.943Z",
+        "stock_id": "0bcf10e6-b87c-46bd-acf6-5312cdd2ce53",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "bc861646-a55a-4d37-b19a-0533c104e1f3",
+        "virtual_investment": 98475,
+        "gains_losses": 29039,
+        "created_at": "2023-08-28T17:34:39.579Z",
+        "updated_at": "2023-08-29T04:20:30.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b8be806-7519-4671-a419-1a62282e35c7",
+        "virtual_investment": 22338,
+        "gains_losses": 16906,
+        "created_at": "2023-08-28T08:39:31.674Z",
+        "updated_at": "2023-08-28T18:43:57.531Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "699a737f-a15e-421e-832a-6922ac9c045b",
+        "virtual_investment": 73037,
+        "gains_losses": 27226,
+        "created_at": "2023-08-28T13:01:12.978Z",
+        "updated_at": "2023-08-28T14:11:57.794Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ecdf2d3-54dc-4a50-a5aa-6e3a8b4ca25c",
+        "virtual_investment": 67493,
+        "gains_losses": 98418,
+        "created_at": "2023-08-28T13:32:52.617Z",
+        "updated_at": "2023-08-28T09:28:41.186Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "845f8abf-8dde-487c-a810-37ece7dae7da",
+        "virtual_investment": 64816,
+        "gains_losses": 92571,
+        "created_at": "2023-08-29T02:30:24.570Z",
+        "updated_at": "2023-08-28T21:46:54.554Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e1d1dab-14ec-4bde-9bf3-cf3b6e4be4a0",
+        "email": "Arden.Swaniawski@hotmail.com",
+        "firstName": "Verda",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67159492",
+        "tenantId": null
+      },
+      {
+        "reference": "5db82e8e-e753-433a-b53a-a21da093d7b9",
+        "email": "Noemi_Rippin@hotmail.com",
+        "firstName": "Lila",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23f7109a-78ae-4f97-9abd-e4dd99335bd8",
+        "email": "Mariam36@gmail.com",
+        "firstName": "Furman",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/330.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6363d4df-767f-40da-b3ab-c968bac402ee",
+        "email": "Chelsea_Macejkovic72@hotmail.com",
+        "firstName": "Judge",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a02446a2-3287-4864-ad3b-9427b155b060",
+        "email": "Lavada_Cremin63@gmail.com",
+        "firstName": "Isaias",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6403900",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "stock": [
+      {
+        "id": "1389ba13-8a7d-4709-8b3e-9215c0728cd4",
+        "name": "Apple Inc.",
+        "current_price": 71442,
+        "historical_data": "2021-01-01",
+        "relevant_news": "Tech company releases new product",
+        "created_at": "2023-08-29T00:25:10.745Z",
+        "updated_at": "2023-08-29T03:04:17.309Z"
+      },
+      {
+        "id": "1eba8746-e621-4a5d-a8fa-4f649fa56258",
+        "name": "Microsoft Corporation",
+        "current_price": 81409,
+        "historical_data": "2021-01-02",
+        "relevant_news": "Stock price reaches all-time high",
+        "created_at": "2023-08-28T19:31:43.731Z",
+        "updated_at": "2023-08-28T09:27:56.087Z"
+      },
+      {
+        "id": "148b99d9-5bd8-4d2f-8d8b-14393c205a4a",
+        "name": "Amazon.com Inc.",
+        "current_price": 81772,
+        "historical_data": "2021-01-03",
+        "relevant_news": "Company announces quarterly earnings",
+        "created_at": "2023-08-28T18:26:44.566Z",
+        "updated_at": "2023-08-29T08:08:09.088Z"
+      },
+      {
+        "id": "7c906c99-9d8c-4076-996c-4c9116ae15ac",
+        "name": "Tesla Inc.",
+        "current_price": 70279,
+        "historical_data": "2021-01-04",
+        "relevant_news": "CEO steps down",
+        "created_at": "2023-08-28T10:47:03.197Z",
+        "updated_at": "2023-08-29T05:54:00.852Z"
+      },
+      {
+        "id": "e44e972e-e3fb-46a5-af22-38c2cfaa7430",
+        "name": "Google LLC",
+        "current_price": 73728,
+        "historical_data": "2021-01-05",
+        "relevant_news": "New partnership announced",
+        "created_at": "2023-08-28T12:25:22.472Z",
+        "updated_at": "2023-08-28T12:50:11.160Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "81102ab1-588b-444f-b40c-63843d9f3f02",
+        "buy_sell_indicator": "Buy",
+        "quantity": 58922,
+        "transaction_date": "2023-08-28T18:12:55.392Z",
+        "created_at": "2023-08-29T01:14:58.811Z",
+        "updated_at": "2023-08-29T04:22:36.059Z",
+        "stock_id": "1eba8746-e621-4a5d-a8fa-4f649fa56258",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fd03caf-d125-4dcb-bcea-8efa9692851d",
+        "buy_sell_indicator": "Sell",
+        "quantity": 42967,
+        "transaction_date": "2023-08-28T23:56:47.211Z",
+        "created_at": "2023-08-29T06:25:02.020Z",
+        "updated_at": "2023-08-28T17:55:10.169Z",
+        "stock_id": "1eba8746-e621-4a5d-a8fa-4f649fa56258",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94a07bf3-f5d1-4449-9257-d9296c1ef555",
+        "buy_sell_indicator": "Buy",
+        "quantity": 87454,
+        "transaction_date": "2023-08-28T18:45:16.819Z",
+        "created_at": "2023-08-28T23:37:01.426Z",
+        "updated_at": "2023-08-29T06:57:53.144Z",
+        "stock_id": "7c906c99-9d8c-4076-996c-4c9116ae15ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fec2e459-9065-4934-bc24-1cf6a3ef8462",
+        "buy_sell_indicator": "Buy",
+        "quantity": 96776,
+        "transaction_date": "2023-08-28T10:54:56.031Z",
+        "created_at": "2023-08-28T17:30:53.502Z",
+        "updated_at": "2023-08-29T01:21:34.303Z",
+        "stock_id": "148b99d9-5bd8-4d2f-8d8b-14393c205a4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "579e9f44-2c93-48a1-aecf-16f5739bed4c",
+        "buy_sell_indicator": "Sell",
+        "quantity": 59097,
+        "transaction_date": "2023-08-28T17:06:25.947Z",
+        "created_at": "2023-08-28T11:01:30.013Z",
+        "updated_at": "2023-08-29T07:55:03.350Z",
+        "stock_id": "1389ba13-8a7d-4709-8b3e-9215c0728cd4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "stock_advice": [
+      {
+        "id": "b6f71f04-f44c-4f52-82d5-ff615e17efb5",
+        "advice": "Hold",
+        "created_at": "2023-08-29T01:50:50.799Z",
+        "updated_at": "2023-08-29T05:37:59.586Z",
+        "stock_id": "1389ba13-8a7d-4709-8b3e-9215c0728cd4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04a7c4c5-f996-4f83-bd29-8fc1975e2ae0",
+        "advice": "Buy",
+        "created_at": "2023-08-29T06:05:40.117Z",
+        "updated_at": "2023-08-28T19:46:34.421Z",
+        "stock_id": "e44e972e-e3fb-46a5-af22-38c2cfaa7430",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4324f4de-736b-40d7-9365-d5b5769e60df",
+        "advice": "Sell",
+        "created_at": "2023-08-28T11:03:02.387Z",
+        "updated_at": "2023-08-28T12:48:00.077Z",
+        "stock_id": "e44e972e-e3fb-46a5-af22-38c2cfaa7430",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60b19e30-c6ee-43f2-bd1b-3aac46121d3a",
+        "advice": "Hold",
+        "created_at": "2023-08-28T18:19:52.268Z",
+        "updated_at": "2023-08-28T08:22:54.739Z",
+        "stock_id": "148b99d9-5bd8-4d2f-8d8b-14393c205a4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a49c3326-b97e-4007-930d-477becf78138",
+        "advice": "Buy",
+        "created_at": "2023-08-29T06:45:11.140Z",
+        "updated_at": "2023-08-28T10:48:47.391Z",
+        "stock_id": "1eba8746-e621-4a5d-a8fa-4f649fa56258",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "simulated_portfolio": [
+      {
+        "id": "de599b4c-c56b-40e1-b75a-2adbdbe991eb",
+        "virtual_investment": 34186,
+        "gains_losses": 36693,
+        "created_at": "2023-08-28T10:50:30.883Z",
+        "updated_at": "2023-08-28T08:32:23.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c019428-0fec-4fc8-b814-01c621481f22",
+        "virtual_investment": 69779,
+        "gains_losses": 7881,
+        "created_at": "2023-08-29T05:01:50.424Z",
+        "updated_at": "2023-08-28T15:39:23.103Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16f38058-4767-4a15-82be-18b058fa3fbd",
+        "virtual_investment": 76606,
+        "gains_losses": 41360,
+        "created_at": "2023-08-29T02:42:39.474Z",
+        "updated_at": "2023-08-28T16:45:55.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "075c318e-b527-4d78-ae85-877ec738ffcc",
+        "virtual_investment": 92011,
+        "gains_losses": 26237,
+        "created_at": "2023-08-29T03:47:24.566Z",
+        "updated_at": "2023-08-28T15:18:44.504Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87882238-6e0d-4772-926d-a72c1eb3c4b4",
+        "virtual_investment": 44163,
+        "gains_losses": 28193,
+        "created_at": "2023-08-29T06:36:32.101Z",
+        "updated_at": "2023-08-28T21:37:39.152Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "199dc6a0-c6ea-4dc0-8bcd-cb434a214c29",
+        "email": "Maureen.Hyatt33@hotmail.com",
+        "firstName": "Laury",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aab98e64-1585-42c9-adc3-444cc1e2f6bd",
+        "email": "Izaiah3@gmail.com",
+        "firstName": "Charles",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0021ea2b-b06f-4b5d-8bc1-93c971fb5ae8",
+        "email": "Beverly_Heidenreich60@hotmail.com",
+        "firstName": "Keyon",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11266621",
+        "tenantId": null
+      },
+      {
+        "reference": "19541e49-e3a2-4e00-a553-e7ba9d064c29",
+        "email": "Lesly_Kessler79@yahoo.com",
+        "firstName": "Cayla",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/524.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d77b34c-4329-42d0-b202-1d03aeeb09e2",
+        "email": "Shayna_Stoltenberg9@hotmail.com",
+        "firstName": "Loraine",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84315031",
+        "tenantId": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model organization {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description String?  @db.VarChar(255)
+  name        String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  user_id     String   @db.Uuid
+  tenant_id   String   @db.VarChar(255)
+  user        user     @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model simulated_portfolio {
+  id                 String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  virtual_investment Int?
+  gains_losses       Int?
+  user_id            String   @db.Uuid
+  created_at         DateTime @default(now()) @db.Timestamp(6)
+  updated_at         DateTime @default(now()) @db.Timestamp(6)
+  user               user     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model stock {
+  id              String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name            String         @db.VarChar(255)
+  current_price   Int?
+  historical_data String?        @db.VarChar(255)
+  relevant_news   String?        @db.VarChar(255)
+  created_at      DateTime       @default(now()) @db.Timestamp(6)
+  updated_at      DateTime       @default(now()) @db.Timestamp(6)
+  stock_advice    stock_advice[]
+  transaction     transaction[]
+}
+
+model stock_advice {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  advice     String?  @db.VarChar(255)
+  stock_id   String   @db.Uuid
+  user_id    String   @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  stock      stock    @relation(fields: [stock_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user       user     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model transaction {
+  id                 String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  buy_sell_indicator String?   @db.VarChar(255)
+  quantity           Int?
+  transaction_date   DateTime? @db.Timestamp(6)
+  stock_id           String    @db.Uuid
+  user_id            String    @db.Uuid
+  created_at         DateTime  @default(now()) @db.Timestamp(6)
+  updated_at         DateTime  @default(now()) @db.Timestamp(6)
+  stock              stock     @relation(fields: [stock_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user               user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id                  String                @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email               String                @unique @db.VarChar(255)
+  firstName           String?               @db.VarChar(255)
+  lastName            String?               @db.VarChar(255)
+  roq_user_id         String                @db.VarChar(255)
+  tenant_id           String                @db.VarChar(255)
+  created_at          DateTime              @default(now()) @db.Timestamp(6)
+  updated_at          DateTime              @default(now()) @db.Timestamp(6)
+  organization        organization[]
+  simulated_portfolio simulated_portfolio[]
+  stock_advice        stock_advice[]
+  transaction         transaction[]
+}
